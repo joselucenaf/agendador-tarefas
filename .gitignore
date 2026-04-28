@@ -35,3 +35,18 @@ out/
 
 ### VS Code ###
 .vscode/
+### macOS ###
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+### Build Tools ###
+.gradle/
+build/
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### Docker ###
+.docker/

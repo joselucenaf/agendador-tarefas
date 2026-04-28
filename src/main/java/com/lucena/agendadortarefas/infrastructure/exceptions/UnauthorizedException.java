@@ -1,6 +1,8 @@
-package com.lucena.bffagendadortarefas.infrastructure.exceptions;
+package com.lucena.agendadortarefas.infrastructure.exceptions;
 
-public class UnauthorizedException extends RuntimeException  {
+import org.springframework.security.core.AuthenticationException;
+
+public class UnauthorizedException extends AuthenticationException {
     public UnauthorizedException(String mensagem) {
         super(mensagem);
     }
